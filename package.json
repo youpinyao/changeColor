@@ -1,6 +1,6 @@
 {
   "name": "change-color",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "替换图片颜色",
   "main": "dist/changeColor.min.js",
   "scripts": {

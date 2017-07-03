@@ -131,5 +131,5 @@ class ChangeColor {
   }
 
 }
-
+window.ChangeColor = ChangeColor;
 export default ChangeColor;

@@ -2,6 +2,8 @@ import 'simple-color-picker/src/simple-color-picker.css';
 import ColorPicker from 'simple-color-picker';
 import ChangeColor from '../../src';
 
+console.log(ChangeColor);
+
 const imageUrl = document.getElementById('image').src;
 
 const changeColor = new ChangeColor({

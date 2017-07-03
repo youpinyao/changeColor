@@ -2683,6 +2683,7 @@ var ChangeColor = function () {
   return ChangeColor;
 }();
 
+window.ChangeColor = ChangeColor;
 exports['default'] = ChangeColor;
 
 /***/ }),
