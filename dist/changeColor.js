@@ -3183,3 +3183,6 @@ module.exports = convert;
 
 /******/ });
 //# sourceMappingURL=changeColor.js.map
+  if ( typeof module === "object" && typeof module.exports === "object" ) {
+		module.exports = window.ChangeColor;
+	}

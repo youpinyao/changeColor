@@ -1,8 +1,8 @@
 {
   "name": "change-color",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "替换图片颜色",
-  "main": "src/index.js",
+  "main": "dist/changeColor.min.js",
   "scripts": {
     "start": "node ./tools/webpack dev",
     "build": "node ./tools/webpack build"

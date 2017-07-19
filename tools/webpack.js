@@ -134,6 +134,7 @@ function buildLib() {
   webpack(webpackConfig().all_compressed).run((err, stats) => {
     if (runCallback(err, stats)) {
       console.log(chalk.green('\r\nbuild lib all_compressed complete \r\n'));
+      require('./util/lib.after.js')();
     }
   });
 }
